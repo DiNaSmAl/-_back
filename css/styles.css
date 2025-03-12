@@ -1,0 +1,85 @@
+body {
+    font-family: 'Courier New', monospace;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #e94560;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(233, 69, 96, 0.5);
+    border-radius: 12px;
+    text-align: left;
+    width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #e94560;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #e94560;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: none;
+    background: #0f3460;
+    color: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #e94560;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #ff4d6d;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #ff4d6d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: #ff4d6d;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
